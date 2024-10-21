@@ -14,10 +14,14 @@ const Footer = () => {
       >
         <p style={{ fontSize: "30px", textAlign: "center", padding: "20px" }}>
           Built With love by
-          <span>
-          
-              Vivek Sahu
-            
+        <span>
+            <Link
+              style={{ color: "white" }}
+              className="nav-link"
+              to={"https://www.linkedin.com/in/vivek-sahu753/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}
+            >
+              Vivek 
+            </Link>
           </span>
           💘
         </p>
